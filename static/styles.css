@@ -1,0 +1,148 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #FF8800;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* About section styles */
+.about {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Courses section styles */
+.courses {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.course {
+    margin-bottom: 30px;
+}
+
+.course h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 16px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
